@@ -46,6 +46,8 @@ void Display::RunSetup()
       uint16_t calData[5] = { 251, 3539, 331, 3534, 6 };
     #elif defined(CYD_35)
       uint16_t calData[5] = { 309, 3465, 297, 3552, 6 };
+    #elif defined(CYD_40)
+      uint16_t calData[5] = { 289, 3613, 250, 3583, 7 }; // Portrait cal measured on E32R40T hardware
     #elif defined(TFT_DIY)
       uint16_t calData[5] = { 339, 3470, 237, 3438, 2 };
     #endif
