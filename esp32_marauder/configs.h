@@ -133,12 +133,12 @@
     //#define CYD_24
     //#define CYD_24G
     //#define CYD_24CAP
-    #define CYD_28
+    //#define CYD_28
     //#define CYD_32
     //#define CYD_32CAP
     //#define CYD_35
     //#define CYD_35CAP
-    //#define CYD_40
+    #define CYD_40
   #endif
 
   #if defined(MARAUDER_V6) || defined(MARAUDER_V6_1)
