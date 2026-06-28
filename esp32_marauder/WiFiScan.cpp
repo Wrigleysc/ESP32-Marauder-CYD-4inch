@@ -1722,7 +1722,7 @@ void WiFiScan::RunLvJoinWiFi(uint8_t scan_mode, uint16_t color) {
     #elif defined(CYD_35)
       uint16_t calData[5] = { 292, 3570, 295, 3436, 3 }; // Landscape CYD 3.5"
     #elif defined(CYD_40)
-      uint16_t calData[5] = { 292, 3570, 295, 3436, 3 }; // Landscape values inherited from CYD_35 — verified working on E32R40T in landscape testing. Re-calibrate if landscape mode feels imprecise.
+      uint16_t calData[5] = { 277, 3644, 246, 3594, 7 }; // Landscape values calibrated on E32R40T
     #elif defined(TFT_DIY)
       uint16_t calData[5] = { 213, 3469, 320, 3446, 1 }; // Landscape TFT DIY
       Serial.println("Using TFT DIY");
@@ -2309,7 +2309,7 @@ void WiFiScan::RunPacketMonitor(uint8_t scan_mode, uint16_t color)
         #elif defined(CYD_35)
           uint16_t calData[5] = { 292, 3570, 295, 3436, 3 }; // Landscape CYD 3.5"
         #elif defined(CYD_40)
-          uint16_t calData[5] = { 292, 3570, 295, 3436, 3 }; // Landscape values inherited from CYD_35 — verified working on E32R40T in landscape testing. Re-calibrate if landscape mode feels imprecise.
+          uint16_t calData[5] = { 277, 3644, 246, 3594, 7 }; // Landscape values calibrated on E32R40T
         #elif defined(TFT_DIY)
           uint16_t calData[5] = { 213, 3469, 320, 3446, 1 }; // Landscape TFT DIY
           Serial.println("Using TFT DIY");
@@ -2442,7 +2442,7 @@ void WiFiScan::RunEapolScan(uint8_t scan_mode, uint16_t color)
       #elif defined(CYD_35)
         uint16_t calData[5] = { 292, 3570, 295, 3436, 3 }; // Landscape CYD 3.5"
       #elif defined(CYD_40)
-        uint16_t calData[5] = { 292, 3570, 295, 3436, 3 }; // Landscape values inherited from CYD_35 — verified working on E32R40T in landscape testing. Re-calibrate if landscape mode feels imprecise.
+        uint16_t calData[5] = { 277, 3644, 246, 3594, 7 }; // Landscape values calibrated on E32R40T
       #elif defined(TFT_DIY)
         uint16_t calData[5] = { 213, 3469, 320, 3446, 1 }; // Landscape TFT DIY
       #endif
